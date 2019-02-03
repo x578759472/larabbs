@@ -12,8 +12,8 @@ class UsersTableSeeder extends Seeder
     public function run()
     {
         //获取Faker实例
-        $faker = app(Faker\Generator::class);
-
+//        $faker = app(Faker\Generator::class);
+        $faker = Faker\Factory::create('zh_CN');
         // 头像假数据
         $avatars = [
             'https://iocaffcdn.phphub.org/uploads/images/201710/14/1/s5ehp11z6s.png',

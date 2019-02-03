@@ -16,7 +16,8 @@ class TopicsTableSeeder extends Seeder
         $category_ids = Category::all()->pluck('id')->toArray();
 
         // 获取 Faker 实例
-        $faker = app(Faker\Generator::class);
+        $faker = Faker\Factory::create('zh_CN');
+//        $faker = app(Faker\Generator::class);
 
         $topics = factory(Topic::class)
             ->times(100)
