@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title',' 的个人中心')
+@section('title',$user->name. ' 的个人中心')
 @section('content')
   <div class="row">
 
@@ -8,7 +8,7 @@
         <img class="card-img-top" src="https://iocaffcdn.phphub.org/uploads/images/201709/20/1/PtDKbASVcz.png?imageView2/1/w/600/h/600" alt="{{ $user->name }}">
         <div class="card-body">
           <h5><strong>个人简介</strong></h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+          <p>{{$user->introduction}} </p>
           <hr>
           <h5><strong>注册于</strong></h5>
           <p>{{$user->created_at}}</p>
