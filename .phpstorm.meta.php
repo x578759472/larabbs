@@ -5,7 +5,7 @@ namespace PHPSTORM_META {
 
    /**
     * PhpStorm Meta file, to provide autocomplete information for PhpStorm
-    * Generated on 2019-02-03 17:32:34.
+    * Generated on 2019-02-03 19:37:04.
     *
     * @author Barry vd. Heuvel <barryvdh@gmail.com>
     * @see https://github.com/barryvdh/laravel-ide-helper
@@ -65,6 +65,7 @@ namespace PHPSTORM_META {
         'command.ide-helper.models' => \Barryvdh\LaravelIdeHelper\Console\ModelsCommand::class,
         'command.job.make' => \Illuminate\Foundation\Console\JobMakeCommand::class,
         'command.key.generate' => \Illuminate\Foundation\Console\KeyGenerateCommand::class,
+        'command.larascaf.scaffold' => \Summerblue\Generator\Commands\ScaffoldMakeCommand::class,
         'command.listener.make' => \Illuminate\Foundation\Console\ListenerMakeCommand::class,
         'command.mail.make' => \Illuminate\Foundation\Console\MailMakeCommand::class,
         'command.middleware.make' => \Illuminate\Routing\Console\MiddlewareMakeCommand::class,
@@ -206,6 +207,7 @@ namespace PHPSTORM_META {
         'command.ide-helper.models' => \Barryvdh\LaravelIdeHelper\Console\ModelsCommand::class,
         'command.job.make' => \Illuminate\Foundation\Console\JobMakeCommand::class,
         'command.key.generate' => \Illuminate\Foundation\Console\KeyGenerateCommand::class,
+        'command.larascaf.scaffold' => \Summerblue\Generator\Commands\ScaffoldMakeCommand::class,
         'command.listener.make' => \Illuminate\Foundation\Console\ListenerMakeCommand::class,
         'command.mail.make' => \Illuminate\Foundation\Console\MailMakeCommand::class,
         'command.middleware.make' => \Illuminate\Routing\Console\MiddlewareMakeCommand::class,
@@ -347,6 +349,7 @@ namespace PHPSTORM_META {
         'command.ide-helper.models' => \Barryvdh\LaravelIdeHelper\Console\ModelsCommand::class,
         'command.job.make' => \Illuminate\Foundation\Console\JobMakeCommand::class,
         'command.key.generate' => \Illuminate\Foundation\Console\KeyGenerateCommand::class,
+        'command.larascaf.scaffold' => \Summerblue\Generator\Commands\ScaffoldMakeCommand::class,
         'command.listener.make' => \Illuminate\Foundation\Console\ListenerMakeCommand::class,
         'command.mail.make' => \Illuminate\Foundation\Console\MailMakeCommand::class,
         'command.middleware.make' => \Illuminate\Routing\Console\MiddlewareMakeCommand::class,
@@ -488,6 +491,7 @@ namespace PHPSTORM_META {
         'command.ide-helper.models' => \Barryvdh\LaravelIdeHelper\Console\ModelsCommand::class,
         'command.job.make' => \Illuminate\Foundation\Console\JobMakeCommand::class,
         'command.key.generate' => \Illuminate\Foundation\Console\KeyGenerateCommand::class,
+        'command.larascaf.scaffold' => \Summerblue\Generator\Commands\ScaffoldMakeCommand::class,
         'command.listener.make' => \Illuminate\Foundation\Console\ListenerMakeCommand::class,
         'command.mail.make' => \Illuminate\Foundation\Console\MailMakeCommand::class,
         'command.middleware.make' => \Illuminate\Routing\Console\MiddlewareMakeCommand::class,
@@ -629,6 +633,7 @@ namespace PHPSTORM_META {
         'command.ide-helper.models' => \Barryvdh\LaravelIdeHelper\Console\ModelsCommand::class,
         'command.job.make' => \Illuminate\Foundation\Console\JobMakeCommand::class,
         'command.key.generate' => \Illuminate\Foundation\Console\KeyGenerateCommand::class,
+        'command.larascaf.scaffold' => \Summerblue\Generator\Commands\ScaffoldMakeCommand::class,
         'command.listener.make' => \Illuminate\Foundation\Console\ListenerMakeCommand::class,
         'command.mail.make' => \Illuminate\Foundation\Console\MailMakeCommand::class,
         'command.middleware.make' => \Illuminate\Routing\Console\MiddlewareMakeCommand::class,
@@ -770,6 +775,7 @@ namespace PHPSTORM_META {
         'command.ide-helper.models' => \Barryvdh\LaravelIdeHelper\Console\ModelsCommand::class,
         'command.job.make' => \Illuminate\Foundation\Console\JobMakeCommand::class,
         'command.key.generate' => \Illuminate\Foundation\Console\KeyGenerateCommand::class,
+        'command.larascaf.scaffold' => \Summerblue\Generator\Commands\ScaffoldMakeCommand::class,
         'command.listener.make' => \Illuminate\Foundation\Console\ListenerMakeCommand::class,
         'command.mail.make' => \Illuminate\Foundation\Console\MailMakeCommand::class,
         'command.middleware.make' => \Illuminate\Routing\Console\MiddlewareMakeCommand::class,
@@ -911,6 +917,7 @@ namespace PHPSTORM_META {
         'command.ide-helper.models' => \Barryvdh\LaravelIdeHelper\Console\ModelsCommand::class,
         'command.job.make' => \Illuminate\Foundation\Console\JobMakeCommand::class,
         'command.key.generate' => \Illuminate\Foundation\Console\KeyGenerateCommand::class,
+        'command.larascaf.scaffold' => \Summerblue\Generator\Commands\ScaffoldMakeCommand::class,
         'command.listener.make' => \Illuminate\Foundation\Console\ListenerMakeCommand::class,
         'command.mail.make' => \Illuminate\Foundation\Console\MailMakeCommand::class,
         'command.middleware.make' => \Illuminate\Routing\Console\MiddlewareMakeCommand::class,
