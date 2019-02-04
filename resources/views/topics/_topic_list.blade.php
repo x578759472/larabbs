@@ -1,4 +1,5 @@
 @if (count($topics))
+
   <ul class="list-unstyled">
     @foreach ($topics as $topic)
       <li class="media">
@@ -21,7 +22,7 @@
 
           <small class="media-body meta text-secondary">
 
-            <a class="text-secondary" href="#" title="{{ $topic->category->name }}">
+            <a class="text-secondary" href="{{route('categories.show',$topic->category_id)}}" title="{{ $topic->category->name }}">
               <i class="far fa-folder"></i>
               {{ $topic->category->name }}
             </a>
