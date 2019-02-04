@@ -16299,3 +16299,13 @@ body {
   margin-bottom: 100px;
 }
 
+.topics-show-page .card {
+  padding: 15px;
+}
+
+.topics-show-page .card h1 {
+  margin: 0.4em auto 0.6em;
+  font-size: 28px;
+  line-height: 38px;
+}
+
