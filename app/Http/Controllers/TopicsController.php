@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Handlers\ImageUploadHandler;
 use App\Models\Category;
 use App\Models\Topic;
+use App\Models\User;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\TopicRequest;
@@ -16,10 +17,13 @@ class TopicsController extends Controller
         $this->middleware('auth', ['except' => ['index', 'show']]);
     }
 
-	public function index(Topic $topic,Request $request)
+	public function index(Topic $topic,Request $request,User $user)
 	{
 		$topics = $topic->withOrder($request->order)->paginate(20);
-        return view('topics.index', compact('topics'));
+
+		$active_users = $user->getActiveUsers();
+
+		return view('topics.index', compact('topics','active_users'));
 	}
 
     public function show(Request $request,Topic $topic)
