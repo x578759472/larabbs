@@ -21,6 +21,13 @@ class UserObserver
         //
     }
 
+    public function saving(User $user)
+    {
+        if(empty($user->avatar)){
+            $user->avatar = 'https://iocaffcdn.phphub.org/uploads/images/201710/30/1/TrJS40Ey5k.png';
+        }
+    }
+
     public function deleted(User $user)
     {
         $topic_ids = Topic::where('user_id',$user->id)->pluck('id');
