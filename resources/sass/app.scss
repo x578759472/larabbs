@@ -66,31 +66,10 @@ body {
   margin-bottom: 60px;
 }
 
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 60px;
-  background-color: #227dc7;
 
-  .container {
-    padding-right: 15px;
-    padding-left: 15px;
-
-    p {
-      margin: 19px 0;
-      color: #c1c1c1;
-
-      a {
-        color: inherit;
-      }
-    }
-  }
-}
 
 /* Topic Index Page */
-.topics-index-page, .categories-show-page {
+.topics-index-page, .categories-show-page ,.root-page{
   .topic-list {
     .nav>li>a {
       position: relative;
@@ -176,5 +155,29 @@ body {
 
   .badge-hint {
     background-color: #d15b47 !important;;
+  }
+}
+
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #227dc7;
+
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+
+    p {
+      margin: 19px 0;
+      color: #c1c1c1;
+
+      a {
+        color: inherit;
+      }
+    }
   }
 }
